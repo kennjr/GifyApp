@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faTimesCircle } from '@fortawesome/free-regular-svg-icons';
+// import { GifsService } from '../../services/gifs.service';
 
 @Component({
   selector: 'app-header',
@@ -12,6 +13,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    // this.gifservice.getSomeGifs();
   }
 
 }
